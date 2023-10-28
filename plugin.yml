@@ -1,0 +1,18 @@
+main : DEVIL\FrostMaintenanceMode\Main
+name: FrostMaintenanceMode
+version: 1.0.0
+api: 5.0.0
+Author:
+ - _devil_xd
+ - FrostCreations
+
+commands:
+  mm:
+    description: Activate/Disable Maintenance Mode
+    permission: maintenancemode.cmd
+
+permissions:
+  maintenancemode.bypass:
+    default: op
+  maintenancemode.cmd:
+    default: op
